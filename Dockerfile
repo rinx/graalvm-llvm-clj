@@ -30,7 +30,7 @@ RUN native-image \
     --initialize-at-build-time \
     --static \
     -J-Xms2g \
-    -J-Xmx4g
+    -J-Xmx7g
 
 FROM scratch
 
